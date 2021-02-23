@@ -2,11 +2,26 @@
   "name": "root",
   "private": true,
   "author": "Creative Commons (https://creativecommons.org)",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/creativecommons/vocabulary.git"
   },
   "bugs": "https://github.com/creativecommons/vocabulary/issues/",
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/creativecommons"
+    },
+    {
+      "type": "donations",
+      "url": "https://creativecommons.org/donate"
+    }
+  ],
   "homepage": "https://opensource.creativecommons.org/vocabulary",
   "keywords": [
     "ui",
@@ -27,5 +42,9 @@
   },
   "devDependencies": {
     "lerna": "^3.22.1"
+  },
+  "volta": {
+    "node": "14.15.1",
+    "npm": "6.14.9"
   }
 }
